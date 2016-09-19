@@ -1,0 +1,62 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="gps_preferences" >
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+    <ListPreference
+        android:defaultValue="500"
+        android:entries="@array/pref_r_list_titles"
+        android:entryValues="@array/pref_r_list_values"
+        android:key="r_list"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_r" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="border_checkbox"
+        android:title="@string/pref_title_border" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="mode_checkbox"
+        android:title="@string/pref_title_mode" />
+
+    <ListPreference
+        android:title="@string/pref_title_area"
+        android:key="area_list" />
+
+    <ListPreference
+        android:defaultValue="-1"
+        android:entries="@array/pref_stop_list_titles"
+        android:entryValues="@array/pref_stop_list_values"
+        android:key="stop_list"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_stop" />
+
+    <ListPreference
+        android:defaultValue="-1"
+        android:entries="@array/pref_stop_area_list_titles"
+        android:entryValues="@array/pref_stop_list_values"
+        android:key="stop_area_list"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_stop_area" />
+
+    <ListPreference
+        android:defaultValue="-1"
+        android:entries="@array/pref_stop_battery_list_titles"
+        android:entryValues="@array/pref_stop_battery_list_values"
+        android:key="stop_battery_list"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_stop_battery" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="log_checkbox"
+        android:title="@string/pref_title_log" />
+
+</PreferenceScreen>

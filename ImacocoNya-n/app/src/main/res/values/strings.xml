@@ -1,0 +1,277 @@
+<resources>
+    <string name="app_name">今ココなう！(β)</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="menuSetting">設定</string>
+    <string name="menuSave">設定保存</string>
+    <string name="menuLoad">設定読込</string>
+
+    <string name="mainTitle">今ココなう！(β)</string>
+    <string name="defaultValue">-</string>
+    <string name="unknownUser">[unknown]</string>
+    <string name="longitude">緯度：</string>
+    <string name="latitude">経度：</string>
+    <string name="altitude">高度：</string>
+    <string name="bearing">方角：</string>
+    <string name="speed">速さ：</string>
+    <string name="speedUnit">km/h</string>
+    <string name="accuracy">精度：</string>
+    <string name="lastTransmissionTime">最終送信時刻：</string>
+    <string name="nowAddress">現在住所：</string>
+    <string name="nowCity">現在市区町村：</string>
+    <string name="tweet">ツイート：</string>
+
+
+    <string name="startButton">サービス開始</string>
+    <string name="stopButton">サービス停止</string>
+    <string name="showMapButton">地図表示</string>
+    <string name="autoPostCheck">自動ポスト</string>
+    <string name="autoImacoco">自動ｲﾏｺｺ</string>
+
+    <string name="settingTitle">今ココなう！(β)設定</string>
+    <string name="settingAccount">今ココなう！(β)アカウント設定</string>
+
+    <string name="settingTwitter">Twitter設定</string>
+
+    <string name="twitter_callback_url"></string>
+
+    <string name="settingGPS">GPS設定</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_account">今ココなう(β)アカウント設定</string>
+
+    <string name="pref_title_account_id">ID</string>
+
+    <string name="pref_title_account_pass">パスワード</string>
+    <string name="pref_account_pass_info">今ココなう(β)サービスのパスワード</string>
+
+    <string name="pref_title_check">ログイン確認</string>
+    <string name="pref_check_info">ログイン確認を行います</string>
+
+    <string name="pref_title_auto">自動post間隔</string>
+
+    <string-array name="pref_auto_list_titles">
+        <item>10秒</item>
+        <item>20秒</item>
+        <item>30秒</item>
+        <item>45秒</item>
+        <item>60秒</item>
+        <item>90秒</item>
+        <item>120秒</item>
+        <item>180秒</item>
+    </string-array>
+    <string-array name="pref_auto_list_values">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>90</item>
+        <item>120</item>
+        <item>180</item>
+    </string-array>
+
+    <string name="pref_title_icon">アイコン</string>
+    <string-array name="pref_icon_list_titles">
+        <item>標準</item>
+        <item>携帯電話</item>
+        <item>飛行機</item>
+        <item>電車</item>
+        <item>新幹線</item>
+        <item>バス</item>
+        <item>自転車</item>
+        <item>徒歩</item>
+        <item>バイク</item>
+        <item>ヘリコプター</item>
+        <item>船</item>
+        <item>Twitter</item>
+    </string-array>
+
+    <string-array name="pref_icon_list_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+
+    <string name="pref_header_twitter">Twitter設定</string>
+
+    <string name="pref_title_twitter_setting">Twitter認証</string>
+
+    <string name="pref_title_header">ヘッダ</string>
+    <string name="pref_default_header">ｲﾏｺｺ! L:</string>
+
+    <string name="pref_title_footer">フッタ</string>
+    <string name="pref_default_footer">[ImacocoNow! Android]</string>
+
+    <string name="pref_title_tag">ハッシュタグ</string>
+    <string name="pref_tag_info">ハッシュタグ #imacoconow をつける</string>
+
+    <string name="pref_title_place">位置情報</string>
+    <string name="pref_place_info">Tweet時に位置情報も同時に送信する</string>
+
+    <string name="pref_title_timing">タイミング</string>
+    <string name="pref_timing_info">市区町村が変化したときにつぶやきます</string>
+
+    <string name="pref_title_interval">間隔</string>
+
+    <string-array name="pref_interval_list_titles">
+        <item>3分</item>
+        <item>5分</item>
+        <item>10分</item>
+        <item>15分</item>
+        <item>20分</item>
+        <item>30分</item>
+    </string-array>
+    <string-array name="pref_interval_list_values">
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+
+    <string name="pref_header_GPS">GPS設定</string>
+
+    <string name="pref_title_r">非送信半径</string>
+
+    <string-array name="pref_r_list_titles">
+        <item>250m</item>
+        <item>500m</item>
+        <item>1000m</item>
+        <item>2000m</item>
+    </string-array>
+    <string-array name="pref_r_list_values">
+        <item>250</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>2000</item>
+    </string-array>
+
+    <string name="pref_title_border">都道府県境でアナウンス</string>
+
+    <string name="pref_title_mode">GPS間欠モード</string>
+
+    <string name="pref_title_area">非送信地帯</string>
+
+    <string name="pref_title_stop">自動停止</string>
+
+    <string-array name="pref_stop_list_titles">
+        <item>しない</item>
+        <item>1時間後</item>
+        <item>2時間後</item>
+        <item>3時間後</item>
+        <item>4時間後</item>
+        <item>5時間後</item>
+        <item>6時間後</item>
+        <item>7時間後</item>
+        <item>8時間後</item>
+        <item>9時間後</item>
+        <item>10時間後</item>
+    </string-array>
+    <string-array name="pref_stop_list_values">
+        <item>-1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string name="pref_title_stop_area">自動停止(非送信地帯)</string>
+
+    <string-array name="pref_stop_area_list_titles">
+        <item>しない</item>
+        <item>1分後</item>
+        <item>2分後</item>
+        <item>3分後</item>
+        <item>4分後</item>
+        <item>5分後</item>
+        <item>6分後</item>
+        <item>7分後</item>
+        <item>8分後</item>
+        <item>9分後</item>
+        <item>10分後</item>
+    </string-array>
+
+    <string name="pref_title_stop_battery">自動停止(電池残量)</string>
+
+    <string-array name="pref_stop_battery_list_titles">
+        <item>しない</item>
+        <item>5%</item>
+        <item>10%</item>
+        <item>15%</item>
+        <item>20%</item>
+        <item>25%</item>
+        <item>30%</item>
+    </string-array>
+    <string-array name="pref_stop_battery_list_values">
+        <item>-1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+
+    <string name="pref_title_log">ログを保存</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="twitter_oauth">key</string>
+</resources>

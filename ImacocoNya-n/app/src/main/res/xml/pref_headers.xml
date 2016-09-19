@@ -1,0 +1,21 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="tuyosi_wada_music.outlook.jp.imacoconya_n.SettingsActivity$AccountSettingFragment"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:title="@string/pref_header_account" />
+
+    <header
+        android:fragment="tuyosi_wada_music.outlook.jp.imacoconya_n.SettingsActivity$TwitterSettingFragment"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/pref_header_twitter" />
+
+    <header
+        android:fragment="tuyosi_wada_music.outlook.jp.imacoconya_n.SettingsActivity$GPSSettingFragment"
+        android:icon="@drawable/ic_sync_black_24dp"
+        android:title="@string/pref_header_GPS" />
+
+
+</preference-headers>

@@ -1,0 +1,44 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="twitter_preferences" >
+
+    <Preference
+        android:title="@string/pref_title_twitter_setting"
+        android:key="twitter_oauth"
+        android:summary="Twitter認証を開始します" />
+
+    <EditTextPreference
+        android:title="@string/pref_title_header"
+        android:key="tweet_header"
+        android:defaultValue="@string/pref_default_header" />
+
+    <EditTextPreference
+        android:title="@string/pref_title_footer"
+        android:key="tweet_footer"
+        android:defaultValue="@string/pref_default_footer" />
+
+    <CheckBoxPreference
+        android:title="@string/pref_title_tag"
+        android:key="tag_check"
+        android:text="@string/pref_tag_info"
+        android:defaultValue="true" />
+
+    <CheckBoxPreference
+        android:title="@string/pref_title_place"
+        android:key="place_check"
+        android:text="@string/pref_place_info"
+        android:defaultValue="false" />
+
+    <CheckBoxPreference
+        android:title="@string/pref_title_timing"
+        android:key="timing"
+        android:text="@string/pref_timing_info"
+        android:defaultValue="true" />
+
+    <ListPreference
+        android:title="@string/pref_title_interval"
+        android:entries="@array/pref_interval_list_titles"
+        android:entryValues="@array/pref_interval_list_values"
+        android:key="interval"
+        android:defaultValue="10" />
+
+</PreferenceScreen>

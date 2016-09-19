@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_map"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="現在位置を地図で表示" />
+        <item
+            android:id="@+id/menu_area"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="非送信地帯追加" />
+    </group>
+
+    <item android:title="設定">
+        <menu>
+            <item
+                android:id="@+id/menu_setting"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/menuSetting" />
+            <item
+                android:id="@+id/menu_save"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menuSave" />
+            <item
+                android:id="@+id/menu_load"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menuLoad" />
+            <item
+                android:id="@+id/menu_about"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>
